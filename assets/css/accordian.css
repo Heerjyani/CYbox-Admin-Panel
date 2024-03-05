@@ -1,0 +1,145 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: normal;
+  color: #f5f5f5;
+}
+
+a {
+  color: #14C2A3;
+}
+
+/** ==========================
+* Conentendor Principal
+=============================
+**/
+.accordion {
+  width: 100%;
+  margin: 3em auto 2em;
+  border-radius: 4px;
+  display: -moz-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.accordion .search {
+  width: 100%;
+  display: flex;
+}
+.accordion .search .searchTerm {
+  width: 100%;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.accordion .search .searchTerm:focus {
+  color: #00B4CC;
+}
+.accordion .search .searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  background: red;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.accordion .wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.accordion__list {
+  background: transparent;
+  width: 100%;
+}
+.accordion__list .link {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  transition: all 0.4s ease;
+}
+.accordion__list .link__title {
+  padding: 1.5em;
+  padding-left: 3em;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  color: #ffffff;
+}
+.accordion li:last-child .link {
+  border-bottom: 0;
+}
+
+/** ========================
+* Diseño iconos font-awesome
+============================= **/
+.accordion li i {
+  position: absolute;
+  top: 1.5em;
+  left: 1rem;
+  font-size: 1em;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 1.2em;
+}
+
+/**===================================
+* Conf. clase link al estar activo submenu (con js)
+====================================**/
+.accordion li.open .link {
+  color: #ff5252;
+}
+
+.accordion .link span:hover {
+  color: #14C2A3;
+}
+
+.accordion li.open i {
+  color: #14C2A3;
+}
+
+.accordion li.open i.fa-chevron-down {
+  transform: rotate(180deg);
+}
+
+/**=======================
+* Submenu
+==========================**/
+.submenu {
+  display: none;
+  background: transparent;
+  font-size: 0.95em;
+}
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  padding: 1rem;
+  padding-left: 3.5em;
+  transition: all 0.25 ease;
+}
+
+.submenu a:hover {
+  background: #14C2A3;
+  color: #fff;
+}/*# sourceMappingURL=accordian.css.map */

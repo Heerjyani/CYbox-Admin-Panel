@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+$bg:#0c1226;
+$primary-color: #14C2A3 ;
+$secondry-color:#b9b9bf;
+$white-color:#ffffff;
+$bg-font-color:#22b78f1a;
+$header-color:#141a31;
+$section-color:#0c1226;
+$section-box-color:#0e2230;
+$box-color:#0e2431;
+$box-color-2:#152a3a;
+$chkra: 'Chakra Petch';
+$mono: 'IBM Plex Mono';
+$fs-14:14px;
+$fs-16:16px;
+$fs-17:17px;
+$fs-20:20px;
+$fs-24:24px;
+$fs-27:27px;
+$fs-30:30px;
+$fs-32:32px;
+$fs-36:36px;
+$fs-44:44px;
+$fs-56:56px;
+$fs-80:80px;
+
+body {
+    background-color: $bg;
+    font-family: $chkra;
+    color: $white-color;
+}
+ul{
+    padding-left: 0!important;  
+    list-style: none;
+}
+// .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     padding-left: var(--padding-left);
+//     padding-right: var(--padding-right);
+// }
+
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-left: calc(-1 * var(--padding-left));
+//     margin-right: calc(-1 * var(--padding-right));
+// }
+
+// .col-1 {
+//     width: 8.33%;
+// }
+
+// .col-2 {
+//     width: 16.66%;
+// }
+
+// .col-2 {
+//     width: 16.66%;
+// }
+
+// .col-3 {
+//     width: 25%;
+// }
+
+// .col-4 {
+//     width: 33.33%;
+// }
+
+// .col-5 {
+//     width: 41.66%;
+// }
+
+// .col-6 {
+//     width: 50%;
+// }
+
+// .col-7 {
+//     width: 58.33%;
+// }
+
+// .col-8 {
+//     width: 66.66%;
+// }
+
+// .col-9 {
+//     width: 75%;
+// }
+
+// .col-10 {
+//     width: 83.33%;
+// }
+
+// .col-10 {
+//     width: 83.33%;
+// }
+
+// .col-11 {
+//     width: 91.66%;
+// }
+
+// .col-12 {
+//     width: 100%;
+// }
+
+// .col-1,
+// .col-2,
+// .col-3,
+// .col-4,
+// .col-5,
+// .col-6,
+// .col-7,
+// .col-8,
+// .col-9,
+// .col-10,
+// .col-11,
+// .col-12 {
+//     padding-left: var(--padding-left);
+//     padding-right: var(--padding-right);
+// }
